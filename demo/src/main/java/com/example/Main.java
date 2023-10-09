@@ -11,6 +11,5 @@ public class Main {
         System.out.println(Root.toString(2));
         FileCreator File = new FileCreator();
         File.Create(Root);
-    //System.out.println(creator.Create());
     }
 }
