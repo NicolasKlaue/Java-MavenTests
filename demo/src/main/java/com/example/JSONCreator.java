@@ -7,7 +7,7 @@ public class JSONCreator {
 
  }
 
- public String Create() {
+ public JSONObject Create() {
 
   JSONObject Root = new JSONObject();
   Root.put("Name", "Nico");
@@ -18,6 +18,6 @@ public class JSONCreator {
   Root.put("adress", adress);
   String[] Departments = { "Dept 1", "Dept 2", "Dept 3" };
   Root.put("Deptarments", Departments);
-  return Root.toString(2);
+  return Root;
  }
 }
